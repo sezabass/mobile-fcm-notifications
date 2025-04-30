@@ -3,4 +3,4 @@ build
 npm-debug.log
 .env
 .DS_Store
-.your-application-firebase-adminsdk.json
+your-application-firebase-adminsdk.json
