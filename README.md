@@ -1,15 +1,17 @@
 ## App for testing push notifications
 
-This is a simple node app for sending notifications with firebase on stg environment.
+This is a simple node app for sending notifications with Firebase.
 
 ## Getting started
-1. Install Node and npm
-2. Run `npm install` inside the folder where you've cloned the project
-3. Run `node app.js`
 
-Then you can use postman/cURL to make a POST request to `localhost:3000/notification`
+1. Open the [How to generate private key file] image in order to 
+see how to get the Firebase credentials file for your application;
+2. Save the downloaded file on the application root as `your-application-firebase-adminsdk.json`;
+3. Install Node and npm;
+4. Run `npm install` inside the folder where you've cloned the project;
+5. Run `npm start`.
 
-with these parameters:
+Then you can make a POST request to `localhost:3000/notification` with these parameters:
 
 ```json
 {
@@ -29,6 +31,3 @@ with these parameters:
 	}
 }
 ```
-
-### iOS
-Yet to be created :P
