@@ -4,7 +4,7 @@ This is a simple node app for sending notifications with Firebase.
 
 ## Getting started
 
-1. Open the [How to generate private key file] image in order to 
+1. Open the [How to generate private key file](./how-to-generate-private-key-file.png) image in order to 
 see how to get the Firebase credentials file for your application;
 2. Save the downloaded file on the application root as `your-application-firebase-adminsdk.json`;
 3. Install Node and npm;
